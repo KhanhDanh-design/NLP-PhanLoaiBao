@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Data (tạm thời)
+data/*.csv
+data/*.pkl
+data/*.json
+
+# Models & Vectorizers (nếu generated locally)
+# models/*.pkl  # Uncomment nếu không muốn track models
+
+# Charts (nếu generated)
+# charts/*.png  # Uncomment nếu charts có thay đổi
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*backup*
+
+# OS
+Thumbs.db
+.DS_Store
